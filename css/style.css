@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+main{
+  text-align: center;
+}
+#main-container{
+  text-align: center;
+  margin: 0 auto;
+}
+#operators{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#operators .itemText{
+  margin-right: 0;
+}
+.operatorContainer{
+  margin-left: 4px;
+}
+#result-container{
+  margin: 5px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+#result-container .itemText{
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.result{
+  width: 100px;
+  margin: 0px 0px 4px 0px;
+}
+.resultParagraph{
+  display: inline-block;
+  transition: width 0.3s ease-in-out;
+  color: green;
+  font-weight: bold;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.error-message{
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

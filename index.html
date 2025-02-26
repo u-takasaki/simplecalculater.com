@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js" defer></script>
+  <title>SimpleCalculater</title>
+</head>
+<body>
+  <main>
+    
+    <form>
+      <h1 id="title">
+        電卓アプリ
+      </h1>
+      <div id="main-container">
+        <label class="itemText">数値1:</label>
+        <input type="text" name="firstValue">
+        <div id="operators">
+          <label class="itemText">演算子:</label>
+          <div class="operatorContainer">
+            <button class="operator">+</button>
+            <button class="operator">-</button>
+            <button class="operator">×</button>
+            <button class="operator">÷</button>
+          </div>
+        </div>
+        <label class="itemText">数値2:</label>
+        <input type="text" name="secondValue">
+        <div id="result-container">
+          <label class="itemText">結果:</label>
+          <p class="resultParagraph"></p>
+        </div>
+        
+
+        <div class="error-message"></div>
+        <button type="submit">計算</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
